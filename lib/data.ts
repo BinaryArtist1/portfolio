@@ -3,17 +3,14 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
-const filmsite =
-  "https://serv.husky.nz/peter-port/Screenshot_20231020_153230.png";
-const hunzweather =
-  "https://serv.husky.nz/peter-port/Screenshot_20231020_153931.png";
-const gen6 = "https://serv.husky.nz/peter-port/Screenshot_20231020_185537.png";
-const yoobe = "https://serv.husky.nz/peter-port/yoobe.png";
+const mdme =
+  "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/mdme.png";
 const teachwithkoala =
-  "https://www.teachwithkoala.com/_next/image?url=%2Fimg%2Fhome%2Fkoala_go_screenshot_1.webp&w=1920&q=75";
+  "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/teachwithkoala.png";
 const trykopia =
-  "https://www.teachwithkoala.com/_next/image?url=%2Fimg%2Fhome%2Fkoala_go_screenshot_1.webp&w=1920&q=75";
-const Spectrum = "https://serv.husky.nz/peter-port/Spectrum-website.png";
+  "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/trykopia.png";
+const mainstreetdata =
+  "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/mainstreetdata.png";
 
 export const links = [
   {
@@ -70,45 +67,21 @@ export const projectsData = [
     imageUrl: trykopia,
   },
   {
-    title: "Spectrum's Website",
+    title: "Mainstreetdata",
     description:
-      "This is a very fun project to watch grow and I had the fun task of building the Website and running it on cloudflare. I also help with alot of backend stuff.",
-    tags: ["Astro", "JSX", "Cloudflare"],
-    link: "https://spectrum.liamsherwin.tech",
-    imageUrl: Spectrum,
+      "Unlimited Access to Large Database of Companies Worldwide. Start reviewing now!",
+    tags: ["React", "React Charts", "Express", "PostgreSQL"],
+    link: "https://mainstreetdata.com/TSLA?tab=Dashboard",
+    imageUrl: mainstreetdata,
   },
 
   {
-    title: "Yoobee Cyber Security Micro-credential",
-    description: "I learnt a lot from this course.",
+    title: "MD and ME",
+    description:
+      "AI symptom checker based on OpenAI API endpoints - Fine tuned over ten thousands of medical data",
     tags: ["Year 2023", "Basic compute", "Kail Linux"],
-    link: "https://landing.husky.nz",
-    imageUrl: yoobe,
-  },
-  {
-    title: "Rolleston College Film Club",
-    description:
-      "I worked with two other developers on building a website for our film club to help people get to know who we are.",
-    tags: ["Year 2023", "Astro", "Tailwind", "CSS"],
-    link: "https://filmclub.tech",
-    imageUrl: filmsite,
-  },
-  {
-    title: "HuskyNZ Weather",
-    description:
-      "For a school assignment, I made a small weather app that uses Flask and OpenWeather to be slim and lean. I'm looking to do a complete rewrite soon.",
-    tags: ["Year 2023", "Flask", "Python", "Azure"],
-    link: "https://landing.husky.nz",
-    imageUrl: hunzweather,
-  },
-
-  {
-    title: "HuskyNZ's Gen6 website",
-    description:
-      "While I don't use it anymore because I've switched to using Free Flarum, this was one of my first coding projects. It's not that great, and we don't really discuss why it's gen6",
-    tags: ["Year 2022-2023", "Azure app service"],
-    link: "https://landing.husky.nz",
-    imageUrl: gen6,
+    link: "https://mdme.ai/chat",
+    imageUrl: mdme,
   },
 ] as const;
 
