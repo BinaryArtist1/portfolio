@@ -7,11 +7,10 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Hello im Peter",
+  title: "Hello im Chris",
   description: "Welcome to my site",
 };
 
@@ -38,7 +37,6 @@ export default function RootLayout({
           </ActiveSectionContextProvider>
           <ThemeSwitch />
         </ThemeContextProvider>
-
       </body>
     </html>
   );
