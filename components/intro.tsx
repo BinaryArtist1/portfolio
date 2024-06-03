@@ -33,7 +33,7 @@ export default function Intro() {
             }}
           >
             <img
-              src="https://serv.husky.nz/rollestoncollege/DSC_0321.JPG"
+              src="https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/chris.png"
               alt="Boo"
               width="192"
               height="192"

@@ -79,26 +79,31 @@ export const projectsData = [
     title: "MD and ME",
     description:
       "AI symptom checker based on OpenAI API endpoints - Fine tuned over ten thousands of medical data",
-    tags: ["Year 2023", "Basic compute", "Kail Linux"],
+    tags: ["React", "React Native", "Django", "OpenAI", "MySQL"],
     link: "https://mdme.ai/chat",
     imageUrl: mdme,
   },
 ] as const;
 
 export const skillsData = [
-  "Azure",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next",
+  "React Native",
+  "Vue",
+  "Angular",
+  "NodeJS",
+  "Express",
+  "Nest",
+  "ThreeJS",
+  "WebGL",
+  "Python",
+  "Django",
+  "Flask",
+  "SQLAlchemy",
   "AWS",
-  "Microsoft 365",
-  "Cloudflare",
-  "Cloud Networking",
-  "Databases",
-  "Terrafom",
-  "PowerShell",
-  "NextJS",
-  "ReactJS",
-  "TailwindCSS",
-  "Adobe Permiere Pro, Adobe Audition and Photoshop",
-  "DaVinci Resolve",
+  "Firebase",
 ] as const;
 
 export const osdata = [
@@ -110,8 +115,7 @@ export const osdata = [
 
 export const pskillsData = [
   "Good Problem Solving",
-  "Efficient",
-  "Positive Attitude",
+  "Startup Enthusiast",
   "Solid Work Ethic",
   "Willing to learn",
 ] as const;

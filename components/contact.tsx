@@ -34,12 +34,12 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:peter@husky.nz">
-          peter@husky.nz
+        <a className="underline" href="mailto:chriswang315@gmail.com">
+          chriswang315@gmail.com
         </a>{" "}
         and{" "}
         <a className="underline" href="tel:+640272500625">
-          +640272500625
+          +12538817405
         </a>{" "}
       </p>
       <br />

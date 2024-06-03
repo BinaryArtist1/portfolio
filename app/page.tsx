@@ -47,7 +47,7 @@ const Home = () => {
             <Certs />
             <Projects />
             <Skills />
-            <Pos />
+            {/* <Pos /> */}
             <Pskills />
             <Contact />
           </>
@@ -71,7 +71,7 @@ const Home = () => {
           <Certs />
           <Projects />
           <Skills />
-          <Pos />
+          {/* <Pos /> */}
           <Pskills />
           <Contact />
         </>
