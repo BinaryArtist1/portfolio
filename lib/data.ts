@@ -9,6 +9,8 @@ const teachwithkoala =
   "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/teachwithkoala.png";
 const trykopia =
   "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/trykopia.png";
+const literati =
+  "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/literati.png";
 const mainstreetdata =
   "https://raw.githubusercontent.com/BinaryArtist1/portfolio/master/app/assets/mainstreetdata.png";
 
@@ -65,6 +67,21 @@ export const projectsData = [
     tags: ["Year 2022", "React", "Django", "ThreeJS", "SageMaker", "CNN"],
     link: "https://trykopia.com/",
     imageUrl: trykopia,
+  },
+  {
+    title: "Literati",
+    description: "The kids book club for remarkable readers - from scratch",
+    tags: [
+      "Year 2021",
+      "React",
+      "Next",
+      "WordPress",
+      "Express",
+      "MongoDB",
+      "SEO",
+    ],
+    link: "https://literati.com/",
+    imageUrl: literati,
   },
   {
     title: "Mainstreetdata",
