@@ -26,7 +26,7 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -57,7 +57,7 @@ export default function Intro() {
             }}
           ></motion.span>
         </div>
-      </div>
+      </div> */}
 
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
@@ -65,7 +65,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         Hi, I'm <span className="font-bold">Chris</span>
-        <div className="text-[25px]">Full-Stack Developer</div>
+        <div className="text-[25px]">Full-Stack Developer | AI enthusiast</div>
       </motion.h1>
 
       <motion.div
