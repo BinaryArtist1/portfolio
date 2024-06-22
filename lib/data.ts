@@ -60,14 +60,14 @@ export const projectsData = [
   //   link: "https://rollestoncollege.nz",
   //   imageUrl: youneedaimange,
   // },
-  {
-    title: "Try Kopia",
-    description:
-      "B2B E-commerce Saas Virtual Clothes Try-on - See yourself in clothes you like",
-    tags: ["Year 2022", "React", "Django", "ThreeJS", "SageMaker", "CNN"],
-    link: "https://trykopia.com/",
-    imageUrl: trykopia,
-  },
+  // {
+  //   title: "Try Kopia",
+  //   description:
+  //     "B2B E-commerce Saas Virtual Clothes Try-on - See yourself in clothes you like",
+  //   tags: ["Year 2022", "React", "Django", "ThreeJS", "SageMaker", "CNN"],
+  //   link: "https://trykopia.com/",
+  //   imageUrl: trykopia,
+  // },
   {
     title: "Literati",
     description: "The kids book club for remarkable readers - from scratch",
